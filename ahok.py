@@ -3,35 +3,35 @@ from textblob import TextBlob
 
 
 train = [
-    ('I love this sandwich.', 'pos'),
-    ('This is an amazing place!', 'pos'),
-    ('I feel very good about these beers.', 'pos'),
-    ('This is my best work.', 'pos'),
-    ("What an awesome view", 'pos'),
-    ('I do not like this restaurant', 'neg'),
-    ('I am tired of this stuff.', 'neg'),
-    ("I can't deal with this", 'neg'),
-    ('He is my sworn enemy!', 'neg'),
-    ('My boss is horrible.', 'neg')
+    ('Kami selalu menyiram sayuran setiap hari', 'pos'),
+    ('Dedi telah pergi sekolah pagi ini dengan tepat waktu', 'pos'),
+    ('Anton adalah seorang pelajar yang rajin', 'pos'),
+    ('Ayahku bukan seorang koruptor', 'pos'),
+    ('Saya sudah memiliki cara untuk membuatnya luluh', 'pos'),
+    ('Letusan gunung merapi tahun ini lebih besar dari tahun lalu', 'pos'),
+    ('Cantik sekali wajah perempuan itu', 'pos'),
+    ('Wajah cewek itu tidak cantik', 'neg'),
+    ('Mereka adalah orang tua saya', 'pos'),
+    ('Pak guru tidak jadi melaksanakan ulangan hari ini', 'neg'),
+    ('Sepertinya dia tidak mempunyai uang yang cukup', 'neg'),
+    ('Ayahnya bukan seorang dokter, melainkan cuma perawat saja', 'neg'),
+    ('Aku ingin ikut, tapi Ibu tidak memberi izin', 'neg'),
+    ('Walaupun kita jauh, tapi aku tak pernah sekalipun berniat meninggalkanmu', 'neg'),
 ]
 test = [
-    ('The beer was good.', 'pos'),
-    ('I do not enjoy my job', 'neg'),
-    ("I ain't feeling dandy today.", 'neg'),
-    ("I feel amazing!", 'pos'),
-    ('Gary is a friend of mine.', 'pos'),
-    ("I can't believe I'm doing this.", 'neg')
+    ('Istriku cantik', 'pos'),
+    ('Istriku tidak cantik', 'neg'),
 ]
 
 cl = NaiveBayesClassifier(train)
 
 # Classify some text
-print(cl.classify("Their burgers are amazing."))  # "pos"
-print(cl.classify("I don't like their pizza."))   # "neg"
+# print(cl.classify("Istriku cantik"))  # "pos"
+# print(cl.classify("Istriku tidak cantik."))   # "neg"
 
 # Classify a TextBlob
-blob = TextBlob("The beer was amazing. But the hangover was horrible. "
-                "My boss was not pleased.", classifier=cl)
+blob = TextBlob("Istriku cantik. Istriku tidak cantik.",
+                classifier=cl)
 print(blob)
 print(blob.classify())
 
