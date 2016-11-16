@@ -16,7 +16,8 @@ train = [
     ('Sepertinya dia tidak mempunyai uang yang cukup', 'neg'),
     ('Ayahnya bukan seorang dokter, melainkan cuma perawat saja', 'neg'),
     ('Aku ingin ikut, tapi Ibu tidak memberi izin', 'neg'),
-    ('Walaupun kita jauh, tapi aku tak pernah sekalipun berniat meninggalkanmu', 'neg'),
+    ('Walaupun kita jauh, tapi aku tak pernah sekalipun berniat'
+     'meninggalkanmu', 'neg'),
 ]
 test = [
     ('Istriku cantik', 'pos'),
