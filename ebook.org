@@ -54,16 +54,29 @@ dalam bahasa Indonesia.
 
 
 * Metode
-** Sumber Data
+** Sumber Data (Domain):
+- Koran
+- Teks legal
+- Novel
+- E-mail
+- SMS
+- Customer Review
+- Blog post
 - Twitter
 - Kaskus
 - Facebook
+- etc.
 * Analisis
 ** Analisis Sentimen
 Apakah teks bermakna *positif*, *negatif* atau *netral*? Sumber teks
 bisa dari kalimat, tweet, pesan SMS, review konsumen, dokumen, dan
 seterusnya.
-** Analisis Emosi
+Contoh penerapan di dunia nyata:
+- Bagaimana sentimen terhadap sebuah aspek dari produk?
+- Bagaimana sentimen terhadap politisi, kebijakan pemerintah,
+  perusahaan atau produk?
+
+** Analisis Emosi[fn:3]
 Apa emosi yang terkandung dalam sebuah teks? *Senang*, *susah*,
 *ketakutan*, *marah*?
 * Kesimpulan
@@ -77,3 +90,5 @@ Apa emosi yang terkandung dalam sebuah teks? *Senang*, *susah*,
 [fn:1] [[https://id.wikipedia.org/wiki/Pemrosesan_bahasa_alami][Pemrosesan Bahasa Alami {wikipedia}]]
 
 [fn:2] https://youtu.be/nSzrOl_vnn4?t=61
+
+[fn:3] https://youtu.be/zv16Xyph7Ss?t=176
