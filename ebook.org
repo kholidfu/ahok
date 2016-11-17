@@ -23,6 +23,9 @@ jika mesin dapat berinteraksi dengan manusia?
 Sebelum sampai ke materi yang sulit, saya ingin mulai belajar NLP dari
 hal-hal yang sederhana dahulu.
 * Rumusan Masalah
+Batasan rumusan masalah dalam /paper/ ini adalah dalam konteks bahasa
+Indonesia, karena memang belum banyak penelitian maupun /dataset/
+dalam bahasa Indonesia.
 ** Tokenization
 * Metode
 ** Sumber Data
