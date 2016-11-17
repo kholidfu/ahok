@@ -1,4 +1,5 @@
 Steps
+-----
 
 - get indonesia pos_tag
 - read using nltk
