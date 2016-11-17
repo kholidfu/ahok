@@ -1,6 +1,9 @@
 Learn Machine Learning
 ======================
 
+Salah satu tema yang lagi _hot_ di dunia _computer science_. Mari kita
+belajar!
+
 Good Sentences
 --
 
