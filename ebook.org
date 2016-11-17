@@ -20,6 +20,10 @@ Inilah yang menjadi tujuan dari NLP, membuat mesin memahami maksud
 dari teks yang ditulis maupun diucapkan manusia.
 * Rumusan Masalah
 * Metode
+** Sumber Data
+- Twitter
+- Kaskus
+- Facebook
 * Analisis
 ** Contoh kasus sederhana
 1. satu
