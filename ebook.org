@@ -18,7 +18,10 @@ dalam sebuah teks.
 
 Inilah yang menjadi tujuan dari NLP, membuat mesin memahami maksud
 dari teks yang ditulis maupun diucapkan manusia. Anda bisa bayangkan
-jika mesin dapat berinteraksi dengan manusia?
+jika mesin dapat berinteraksi dengan manusia? Ya, kurang lebih seperti
+si Jarvis dalam film Iron Man. Bahasa manusia yang diterima oleh
+komputer perlu diproses dahulu supaya komputer dapat memahami maksud
+dari bahasa manusia.
 
 Sebelum sampai ke materi yang sulit, saya ingin mulai belajar NLP dari
 hal-hal yang sederhana dahulu.
