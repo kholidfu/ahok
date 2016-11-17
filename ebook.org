@@ -75,7 +75,12 @@ Contoh penerapan di dunia nyata:
 - Bagaimana sentimen terhadap sebuah aspek dari produk?
 - Bagaimana sentimen terhadap politisi, kebijakan pemerintah,
   perusahaan atau produk?
-
+*** Message level sentiment
+- Positive
+- Negative
+- Neutral
+- Indeterminate
+- Both positive and negative
 ** Analisis Emosi[fn:3]
 Apa emosi yang terkandung dalam sebuah teks? *Senang*, *susah*,
 *ketakutan*, *marah*?
