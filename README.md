@@ -5,6 +5,15 @@ Steps
 - train the classifier
 - do some simple sentiment analysis
 
+Good Sentences
+==
+
+- You can employ any language independent text classification method
+  (SVM is known as the best text classification algorithm). For
+  Indonesian language, the differences are on preprocessing steps:
+  stopwords removal and stemming. One of tools/app for classification:
+  Weka.
+
 Reference:
 ==
 
