@@ -6,7 +6,18 @@
 * Pendahuluan
 Menurut wikipedia, Pemrosesan Bahasa Alami (PBA) atau NLP (Natural
 Language Processing), adalah cabang ilmu komputer dan linguistik yang
-mengkaji interaksi antara komputer dengan bahasa (alami) manusia.[fn:1]
+mengkaji interaksi antara komputer dengan bahasa (alami)
+manusia.[fn:1]
+
+Secara sederhana, saya menterjemahkan NLP sebagai disiplin ilmu yang
+berusaha untuk mempelajari bahasa manusia. Seperti diketahui bahasa
+manusia sangat kompleks, namun bukan berarti tidak dapat dipahami oleh
+komputer sama sekali. Dengan menggunakan analisis bentuk dan pola,
+mesin yang sudah terlatih dapat mengetahui apa maksud yang terkandung
+dalam sebuah teks.
+
+Inilah yang menjadi tujuan dari NLP, membuat mesin memahami maksud
+dari teks yang ditulis maupun diucapkan manusia.
 * Rumusan Masalah
 * Metode
 * Analisis
