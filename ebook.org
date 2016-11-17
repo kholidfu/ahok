@@ -1,0 +1,18 @@
+#+TITLE: My Personal Notes on NLP with Python
+#+AUTHOR: Kholid Fuadi, SE., MSi
+#+DATE: <2016-11-17 Thu>
+#+STARTUP: indent
+
+* Pendahuluan
+Menurut wikipedia, Pemrosesan Bahasa Alami (PBA) atau NLP (Natural
+Language Processing), adalah cabang ilmu komputer dan linguistik yang
+mengkaji interaksi antara komputer dengan bahasa (alami) manusia.[fn:1]
+* Rumusan Masalah
+* Metode
+* Analisis
+* Kesimpulan
+* Daftar Pustaka
+
+* Footnotes
+
+[fn:1] [[https://id.wikipedia.org/wiki/Pemrosesan_bahasa_alami][Pemrosesan Bahasa Alami {wikipedia}]]
