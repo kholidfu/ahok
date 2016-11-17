@@ -85,6 +85,8 @@ Apa emosi yang terkandung dalam sebuah teks? *Senang*, *susah*,
   https://arxiv.org/pdf/1103.0398v1.pdf
 - [ ] Kumpulan video PBA di youtube,
   https://www.youtube.com/results?search_query=pemrosesan+bahasa+alami
+- [ ] Sentiment Analysis of Social Media Texts Part 1,
+  https://www.youtube.com/watch?v=zv16Xyph7Ss
 * Footnotes
 
 [fn:1] [[https://id.wikipedia.org/wiki/Pemrosesan_bahasa_alami][Pemrosesan Bahasa Alami {wikipedia}]]
