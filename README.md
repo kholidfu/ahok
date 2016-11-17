@@ -1,13 +1,8 @@
-Steps
------
-
-- get indonesia pos_tag
-- read using nltk
-- train the classifier
-- do some simple sentiment analysis
+Learn Machine Learning
+======================
 
 Good Sentences
-==
+--
 
 - You can employ any language independent text classification method
   (SVM is known as the best text classification algorithm). For
@@ -16,7 +11,7 @@ Good Sentences
   Weka.
 
 Reference:
-==
+--
 
 **Kumpulan Bacaan Bermanfaat**
 
