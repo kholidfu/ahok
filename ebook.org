@@ -21,6 +21,11 @@ dari teks yang ditulis maupun diucapkan manusia.
 * Rumusan Masalah
 * Metode
 * Analisis
+** Contoh kasus sederhana
+1. satu
+2. dua
+3. tiga
+4. empat
 * Kesimpulan
 * Daftar Pustaka
 
