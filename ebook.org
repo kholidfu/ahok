@@ -42,7 +42,8 @@ dalam bahasa Indonesia.
 * Daftar Pustaka
 - [ ] Natural Language Processing (almost) from Scratch,
   https://arxiv.org/pdf/1103.0398v1.pdf
-- [ ] more..
+- [ ] Kumpulan video PBA di youtube,
+  https://www.youtube.com/results?search_query=pemrosesan+bahasa+alami
 * Footnotes
 
 [fn:1] [[https://id.wikipedia.org/wiki/Pemrosesan_bahasa_alami][Pemrosesan Bahasa Alami {wikipedia}]]
