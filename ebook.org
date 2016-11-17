@@ -36,7 +36,11 @@ hal-hal yang sederhana dahulu.
 - Plagiarism detection
 - Speech recognition
 - Text to speech
-
+** Kendala NLP
+- Bahasa = kata + aturan + pengecualian
+- Bahasa alami mengandung ambiguitas
+- Bahasa manusia tidak hanya satu
+- Bahasa manusia terus berubah
 * Rumusan Masalah
 Batasan rumusan masalah dalam /paper/ ini adalah dalam konteks bahasa
 Indonesia, karena memang belum banyak penelitian maupun /dataset/
