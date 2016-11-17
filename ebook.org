@@ -36,27 +36,33 @@ hal-hal yang sederhana dahulu.
 - Plagiarism detection
 - Speech recognition
 - Text to speech
+
 ** Kendala NLP
 - Bahasa = kata + aturan + pengecualian
 - Bahasa alami mengandung ambiguitas
 - Bahasa manusia tidak hanya satu
 - Bahasa manusia terus berubah
+
+** Bahasa dapat dibagi menjadi 2 macam
+- Bahasa alami, misal bahasa indonesia, jawa, inggris
+- Bahasa buatan, misal bahasa pemrograman komputer, bahasa pemodelan
+
 * Rumusan Masalah
 Batasan rumusan masalah dalam /paper/ ini adalah dalam konteks bahasa
 Indonesia, karena memang belum banyak penelitian maupun /dataset/
 dalam bahasa Indonesia.
-** Tokenization
+
+
 * Metode
 ** Sumber Data
 - Twitter
 - Kaskus
 - Facebook
 * Analisis
-** Contoh kasus sederhana
-1. satu
-2. dua
-3. tiga
-4. empat
+** Analisis Sentimen
+Apakah teks bermakna *positif*, *negatif* atau *netral*? Sumber teks
+bisa dari kalimat, tweet, pesan SMS, review konsumen, dokumen, dan
+seterusnya.
 * Kesimpulan
 * Daftar Pustaka
 - [ ] Natural Language Processing (almost) from Scratch,
