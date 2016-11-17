@@ -25,6 +25,18 @@ dari bahasa manusia.
 
 Sebelum sampai ke materi yang sulit, saya ingin mulai belajar NLP dari
 hal-hal yang sederhana dahulu.
+
+** Aplikasi NLP[fn:2]
+- Mesin penjawab pertanyaan otomatis
+- Program pengategorian dokumen otomatis
+- Text mining
+- Mesin translasi
+- Program pembelajaran bahasa
+- Spelling correction
+- Plagiarism detection
+- Speech recognition
+- Text to speech
+
 * Rumusan Masalah
 Batasan rumusan masalah dalam /paper/ ini adalah dalam konteks bahasa
 Indonesia, karena memang belum banyak penelitian maupun /dataset/
@@ -50,3 +62,5 @@ dalam bahasa Indonesia.
 * Footnotes
 
 [fn:1] [[https://id.wikipedia.org/wiki/Pemrosesan_bahasa_alami][Pemrosesan Bahasa Alami {wikipedia}]]
+
+[fn:2] https://youtu.be/nSzrOl_vnn4?t=61
