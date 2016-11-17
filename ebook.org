@@ -17,8 +17,13 @@ mesin yang sudah terlatih dapat mengetahui apa maksud yang terkandung
 dalam sebuah teks.
 
 Inilah yang menjadi tujuan dari NLP, membuat mesin memahami maksud
-dari teks yang ditulis maupun diucapkan manusia.
+dari teks yang ditulis maupun diucapkan manusia. Anda bisa bayangkan
+jika mesin dapat berinteraksi dengan manusia?
+
+Sebelum sampai ke materi yang sulit, saya ingin mulai belajar NLP dari
+hal-hal yang sederhana dahulu.
 * Rumusan Masalah
+** Tokenization
 * Metode
 ** Sumber Data
 - Twitter
@@ -32,7 +37,9 @@ dari teks yang ditulis maupun diucapkan manusia.
 4. empat
 * Kesimpulan
 * Daftar Pustaka
-
+- [ ] Natural Language Processing (almost) from Scratch,
+  https://arxiv.org/pdf/1103.0398v1.pdf
+- [ ] more..
 * Footnotes
 
 [fn:1] [[https://id.wikipedia.org/wiki/Pemrosesan_bahasa_alami][Pemrosesan Bahasa Alami {wikipedia}]]
