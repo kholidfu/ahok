@@ -63,6 +63,9 @@ dalam bahasa Indonesia.
 Apakah teks bermakna *positif*, *negatif* atau *netral*? Sumber teks
 bisa dari kalimat, tweet, pesan SMS, review konsumen, dokumen, dan
 seterusnya.
+** Analisis Emosi
+Apa emosi yang terkandung dalam sebuah teks? *Senang*, *susah*,
+*ketakutan*, *marah*?
 * Kesimpulan
 * Daftar Pustaka
 - [ ] Natural Language Processing (almost) from Scratch,
