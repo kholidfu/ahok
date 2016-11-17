@@ -17,7 +17,8 @@ Good Sentences
 Reference:
 ==
 
-1. [Naive Bayes]
+Naive Bayes
+
    - [analisis sentiment twitter](https://yudiwbs.wordpress.com/2011/12/26/analisis-twee-analisis-opini-sentimen/)
    - [sistem analisis opini microblogging](http://yuliadi.com/file/paper/yudi_wibisono_sistem_analisis_opini_microblogging_ver4.pdf)
    - 
