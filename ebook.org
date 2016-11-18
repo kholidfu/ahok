@@ -182,6 +182,7 @@ Apa emosi yang terkandung dalam sebuah teks? *Senang*, *susah*,
 *ketakutan*, *marah*?
 * V. Kesimpulan
 * Daftar Pustaka
+- [ ] Pusat Bahasa UI, http://bahasa.cs.ui.ac.id/about.php
 - [ ] Natural Language Processing (almost) from Scratch,
   https://arxiv.org/pdf/1103.0398v1.pdf
 - [ ] Kumpulan video PBA di youtube,
