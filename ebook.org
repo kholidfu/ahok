@@ -205,13 +205,12 @@ Apa emosi yang terkandung dalam sebuah teks? *Senang*, *susah*,
 * Good Resources
 Berikut ini beberapa sumber bacaan yang saya temukan ketika sedang
 belajar tentang NLP.
-** Blog/website
-- [[http://bahasa.cs.ui.ac.id/about.php][Pusat Bahasa UI]]
-** PDF
-- [[https://arxiv.org/pdf/1103.0398v1.pdf][Natural Language Processing (almost) from Scratch]]
-** Video (Youtube)
-- [[http:https://www.youtube.com/results?search_query=pemrosesan+bahasa+alami][Youtube search result for PBA]]
-- [[https://www.youtube.com/watch?v=zv16Xyph7Ss][Sentiment Analysis of Social Media Texts Part 1]]
+** PBA/NLP in General
+- [[http://bahasa.cs.ui.ac.id/about.php][Pusat Bahasa UI]] [website]
+- [[https://arxiv.org/pdf/1103.0398v1.pdf][Natural Language Processing (almost) from Scratch]] [PDF]
+- [[http:https://www.youtube.com/results?search_query=pemrosesan+bahasa+alami][Youtube search result for PBA]] [Youtube]
+** Analisis Sentimen
+- [[https://www.youtube.com/watch?v=zv16Xyph7Ss][Sentiment Analysis of Social Media Texts Part 1]] [PDF]
   
 * Footnotes
 
