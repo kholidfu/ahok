@@ -21,7 +21,9 @@ dari teks yang ditulis maupun diucapkan manusia. Anda bisa bayangkan
 jika mesin dapat berinteraksi dengan manusia? Ya, kurang lebih seperti
 si Jarvis dalam film Iron Man. Bahasa manusia yang diterima oleh
 komputer perlu diproses dahulu supaya komputer dapat memahami maksud
-dari bahasa manusia.
+dari bahasa manusia. Bahasa sendiri dapat dibagi menjadi 2, *bahasa
+alami*, misal bahasa indonesia, jawa, inggris dan *bahasa buatan*,
+misal bahasa pemrograman komputer, bahasa pemodelan.
 
 Sebelum sampai ke materi yang sulit, saya ingin mulai belajar NLP dari
 hal-hal yang sederhana dahulu.
@@ -41,13 +43,12 @@ hal-hal yang sederhana dahulu.
 - Bahasa = kata + aturan + pengecualian
 - Bahasa alami mengandung ambiguitas
 - Bahasa manusia tidak hanya satu
-- Bahasa manusia terus berubah
+- Bahasa manusia terus berubah, misalnya fenomena kemunculan bahasa
+  alay.
 
-** I.3 Bahasa dapat dibagi menjadi 2 macam
-- Bahasa alami, misal bahasa indonesia, jawa, inggris
-- Bahasa buatan, misal bahasa pemrograman komputer, bahasa pemodelan
-
-** I.4 Istilah-istilah dalam NLP
+** I.3 Istilah-istilah dalam NLP
+Sebagai seorang awam dalam dunia linguistik, bagi saya penting untuk
+mengetahui istilah-istilah yang sering digunakan dalam NLP.
 *** /tokenizing/
 Proses memecah kata atau kalimat, kalau kata berdasar spasi, kalau
 kalimat berdasar tanda baca titik. Teknik yang digunakan bisa
