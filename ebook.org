@@ -1,4 +1,4 @@
-#+TITLE: My Personal Notes on NLP with Python
+#+TITLE: NLP, Python
 #+AUTHOR: Kholid Fuadi, SE., MSi
 #+DATE: <2016-11-17 Thu>
 #+STARTUP: indent
@@ -156,9 +156,9 @@ Mengubah kata ke bentuk asalnya, dengan memperhatikan konteks.
 *** /treebank/
 *** /pos tag/
 * II. Rumusan Masalah
-Batasan rumusan masalah dalam /paper/ ini adalah dalam konteks bahasa
-Indonesia, karena memang belum banyak penelitian maupun /dataset/
-dalam bahasa Indonesia.
+Batasan rumusan masalah disini adalah dalam konteks bahasa Indonesia,
+karena memang belum banyak penelitian maupun /dataset/ dalam bahasa
+Indonesia.
 
 * III. Metode
 ** III.1 Sumber Data (Domain):
