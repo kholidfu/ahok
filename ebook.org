@@ -1,4 +1,4 @@
-#+TITLE: NLP, Python
+#+TITLE: NLP Bahasa Indonesia dengan Python
 #+AUTHOR: Kholid Fuadi, SE., MSi
 #+DATE: <2016-11-17 Thu>
 #+STARTUP: indent
