@@ -144,6 +144,10 @@ Terlihat bahwa kata ~sekarang~, ~ketika~, ~sering~, ~melakukan~ dan
 ~teks~. Inilah salah satu contoh proses /tokenization/ dan
 membersihkan teks dari kata penghubung.
 
+*** /stemming/
+Mengubah kata ke bentuk aslinya, tanpa memperhatikan konteks.
+*** /lemmatization/
+Mengubah kata ke bentuk asalnya, dengan memperhatikan konteks.
 * II. Rumusan Masalah
 Batasan rumusan masalah dalam /paper/ ini adalah dalam konteks bahasa
 Indonesia, karena memang belum banyak penelitian maupun /dataset/
