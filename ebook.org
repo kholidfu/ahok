@@ -83,7 +83,7 @@ juga. Terlihat bahwa pustaka ~nltk~ sudah menyediakan fungsi yang
   /stopwords/ yang tinggal diunduh, lain halnya dengan Bahasa
   Indonesia. Kita harus menambahkan secara manual, beruntung ada
   beberapa tautan di Internet yang menyediakan, dan sudah saya unduh
-  di direktori ~dataset~. Mari kita coba terapkan untuk
+  di direktori ~dataset~[fn:4]. Mari kita coba terapkan untuk
   mengidentifikasi kata penghubung dalam Bahasa Indonesia:
 
 #+BEGIN_SRC python
@@ -184,6 +184,8 @@ Apa emosi yang terkandung dalam sebuah teks? *Senang*, *susah*,
 - [ ] Sentiment Analysis of Social Media Texts Part 1,
   https://www.youtube.com/watch?v=zv16Xyph7Ss
 * Footnotes
+
+[fn:4] [[http://hikaruyuuki.lecture.ub.ac.id/kamus-kata-dasar-dan-stopword-list-bahasa-indonesia/][Kamus kata dasar dan stopword list bahasa indonesia]]
 
 [fn:1] [[https://id.wikipedia.org/wiki/Pemrosesan_bahasa_alami][Pemrosesan Bahasa Alami {wikipedia}]]
 
