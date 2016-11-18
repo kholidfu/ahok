@@ -136,7 +136,7 @@ Hasilnya:
 
 #+BEGIN_SRC python
 ['Semenjak', 'dihadang', 'warga', 'kampanye', ',', 'Ahok', 'kegiatan',
-'kampanye', 'posko', 'Ahok', '.']
+'kampanye', 'poskonya', '.']
 #+END_SRC
 
 Terlihat bahwa kata ~sekarang~, ~ketika~, ~sering~, ~melakukan~ dan
