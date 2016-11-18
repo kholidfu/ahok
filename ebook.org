@@ -47,11 +47,17 @@ hal-hal yang sederhana dahulu.
 - Bahasa alami, misal bahasa indonesia, jawa, inggris
 - Bahasa buatan, misal bahasa pemrograman komputer, bahasa pemodelan
 
+** Istilah-istilah dalam NLP
+- /tokenizing/: memecah kata atau kalimat, kalau kata berdasar spasi,
+  kalau kalimat berdasar tanda baca titik.
+- /corpora/: naskah teks, misal naskah pidato presiden, jurnal ekonomi
+- /lexicon/: kata dan artinya (mirip kamus). Kata 'tahu' bisa bermakna
+  makanan atau bisa juga paham.
+
 * Rumusan Masalah
 Batasan rumusan masalah dalam /paper/ ini adalah dalam konteks bahasa
 Indonesia, karena memang belum banyak penelitian maupun /dataset/
 dalam bahasa Indonesia.
-
 
 * Metode
 ** Sumber Data (Domain):
