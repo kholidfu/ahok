@@ -152,6 +152,8 @@ Referensi menarik di tema ini:
 - [[http://sastrawi.github.io/][sastrawi - library untuk stemming]]
 *** /lemmatization/
 Mengubah kata ke bentuk asalnya, dengan memperhatikan konteks.
+*** /treebank/
+*** /pos tag/
 * II. Rumusan Masalah
 Batasan rumusan masalah dalam /paper/ ini adalah dalam konteks bahasa
 Indonesia, karena memang belum banyak penelitian maupun /dataset/
