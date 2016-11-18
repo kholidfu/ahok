@@ -150,7 +150,7 @@ Indonesia, karena memang belum banyak penelitian maupun /dataset/
 dalam bahasa Indonesia.
 
 * III. Metode
-** Sumber Data (Domain):
+** III.1 Sumber Data (Domain):
 - Koran
 - Teks legal
 - Novel
@@ -163,7 +163,7 @@ dalam bahasa Indonesia.
 - Facebook
 - etc.
 * IV. Analisis
-** Analisis Sentimen
+** IV.1 Analisis Sentimen
 Apakah teks bermakna *positif*, *negatif* atau *netral*? Sumber teks
 bisa dari kalimat, tweet, pesan SMS, review konsumen, dokumen, dan
 seterusnya.
@@ -177,7 +177,7 @@ Contoh penerapan di dunia nyata:
 - Neutral
 - Indeterminate
 - Both positive and negative
-** Analisis Emosi[fn:3]
+** IV.2 Analisis Emosi[fn:3]
 Apa emosi yang terkandung dalam sebuah teks? *Senang*, *susah*,
 *ketakutan*, *marah*?
 * V. Kesimpulan
