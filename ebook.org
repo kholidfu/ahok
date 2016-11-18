@@ -202,14 +202,17 @@ Contoh penerapan di dunia nyata:
 Apa emosi yang terkandung dalam sebuah teks? *Senang*, *susah*,
 *ketakutan*, *marah*?
 * V. Kesimpulan
-* Daftar Pustaka
-- [ ] Pusat Bahasa UI, http://bahasa.cs.ui.ac.id/about.php
-- [ ] Natural Language Processing (almost) from Scratch,
-  https://arxiv.org/pdf/1103.0398v1.pdf
-- [ ] Kumpulan video PBA di youtube,
-  https://www.youtube.com/results?search_query=pemrosesan+bahasa+alami
-- [ ] Sentiment Analysis of Social Media Texts Part 1,
-  https://www.youtube.com/watch?v=zv16Xyph7Ss
+* Good Resources
+Berikut ini beberapa sumber bacaan yang saya temukan ketika sedang
+belajar tentang NLP.
+** Blog/website
+- [[http://bahasa.cs.ui.ac.id/about.php][Pusat Bahasa UI]]
+** PDF
+- [[https://arxiv.org/pdf/1103.0398v1.pdf][Natural Language Processing (almost) from Scratch]]
+** Video (Youtube)
+- [[http:https://www.youtube.com/results?search_query=pemrosesan+bahasa+alami][Youtube search result for PBA]]
+- [[https://www.youtube.com/watch?v=zv16Xyph7Ss][Sentiment Analysis of Social Media Texts Part 1]]
+  
 * Footnotes
 
 [fn:4] [[http://hikaruyuuki.lecture.ub.ac.id/kamus-kata-dasar-dan-stopword-list-bahasa-indonesia/][Kamus kata dasar dan stopword list bahasa indonesia]]
