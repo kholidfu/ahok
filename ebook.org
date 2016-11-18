@@ -206,16 +206,16 @@ Apa emosi yang terkandung dalam sebuah teks? *Senang*, *susah*,
 Berikut ini beberapa sumber bacaan yang saya temukan ketika sedang
 belajar tentang NLP.
 ** PBA/NLP in General
-- [[http://bahasa.cs.ui.ac.id/about.php][Pusat Bahasa UI]] [website]
+- [[http://bahasa.cs.ui.ac.id/about.php][Pusat Bahasa UI]] [Blog/Website]
 - [[https://arxiv.org/pdf/1103.0398v1.pdf][Natural Language Processing (almost) from Scratch]] [PDF]
 - [[http:https://www.youtube.com/results?search_query=pemrosesan+bahasa+alami][Youtube search result for PBA]] [Youtube]
 ** Analisis Sentimen
 - [[https://www.youtube.com/watch?v=zv16Xyph7Ss][Sentiment Analysis of Social Media Texts Part 1]] [PDF]
 ** Stemming
-- [[https://liyantanto.wordpress.com/2011/06/28/stemming-bahasa-indonesia-dengan-algoritma-nazief-dan-andriani/][Stemming Bahasa Indonesia dengan Algoritma Nazief dan Andriani]]
-- [[http://sastrawi.github.io/][Sastrawi - Library untuk Stemming Bahasa Indonesia]]
+- [[https://liyantanto.wordpress.com/2011/06/28/stemming-bahasa-indonesia-dengan-algoritma-nazief-dan-andriani/][Stemming Bahasa Indonesia dengan Algoritma Nazief dan Andriani]] [Blog/Website]
+- [[http://sastrawi.github.io/][Sastrawi - Library untuk Stemming Bahasa Indonesia]] [Github]
 - [[https://yudiagusta.files.wordpress.com/2009/11/196-201-knsi09-036-perbandingan-algoritma-stemming-porter-dengan-algoritma-nazief-adriani-untuk-stemming-dokumen-teks-bahasa-indonesia.pdf][Perbandingan Algoritma Stemming Porter dengan Algoritma Nazief
-  Adriani untuk Stemming Dokumen Teks Bahasa Indonesia]]
+  Adriani untuk Stemming Dokumen Teks Bahasa Indonesia]] [PDF]
   
 * Footnotes
 
