@@ -151,6 +151,8 @@ Mengubah kata ke bentuk aslinya, tanpa memperhatikan konteks.
 Referensi menarik di tema ini:
 - [[https://liyantanto.wordpress.com/2011/06/28/stemming-bahasa-indonesia-dengan-algoritma-nazief-dan-andriani/][Stemming bahasa indonesia dengan algoritma nazief dan andriani]]
 - [[http://sastrawi.github.io/][sastrawi - library untuk stemming]]
+- [[https://yudiagusta.files.wordpress.com/2009/11/196-201-knsi09-036-perbandingan-algoritma-stemming-porter-dengan-algoritma-nazief-adriani-untuk-stemming-dokumen-teks-bahasa-indonesia.pdf][Perbandingan algoritma stemming Porter dengan algoritma Nazief
+  Adriani untuk stemming dokumen teks bahasa Indonesia]]
 *** /lemmatization/
 Mengubah kata ke bentuk asalnya, dengan memperhatikan konteks.
 *** /treebank/
