@@ -1,4 +1,4 @@
-#+TITLE: NLP Bahasa Indonesia dengan Python
+#+TITLE: NLP, Python
 #+AUTHOR: Kholid Fuadi, SE., MSi
 #+DATE: <2016-11-17 Thu>
 #+STARTUP: indent
@@ -50,7 +50,7 @@ hal-hal yang sederhana dahulu.
 ** I.4 Istilah-istilah dalam NLP
 Sebagai seorang awam dalam dunia linguistik, bagi saya penting untuk
 mengetahui istilah-istilah yang sering digunakan dalam NLP.
-*** I.4.1 /tokenizing/
+*** a. /tokenizing/
 Proses memecah kata atau kalimat, kalau kata berdasar spasi, kalau
 kalimat berdasar tanda baca titik. Teknik yang digunakan bisa
 menggunakan ~regex~ atau menggunakan fungsi dari pustaka
@@ -78,90 +78,90 @@ Inggris, fungsi ini dapat kita gunakan untuk Bahasa Indonesia
 juga. Terlihat bahwa pustaka ~nltk~ sudah menyediakan fungsi yang
 /reliable/ untuk memecah kalimat atau kata dengan benar.
 
-*** I.4.2 /corpora/
-NaskI.4ah teks, misal naskah pidato presiden, jurnal ekonomi.
-*** I.4.3 /lexicon/
-KataI.4 dan artinya (mirip kamus). Contoh, kata 'tahu' bisa bermakna
-makaI.4nan atau bisa juga paham. Kalau dalam bahasa Inggris, kata _bull_
-bagiI.4 investor berbeda makna dengan _bull_ bagi pembicara biasa.
-*** I.4.4 /stop words/
-KataI.4 penghubung kalau dalam bahasa Indonesia. Kalau dalam bahasa
-InggI.4ris, pustaka ~nltk~ sudah menyediakan daftar /stopwords/ yang
-tingI.4gal diunduh, lain halnya dengan Bahasa Indonesia. Kita harus
-menaI.4mbahkan secara manual, beruntung ada beberapa tautan di Internet
-yangI.4 menyediakan, dan sudah saya unduh di direktori
-~datI.4aset~[fn:4]. Mari kita coba terapkan untuk mengidentifikasi kata
-pengI.4hubung dalam Bahasa Indonesia:
-    I.4
-#+BEI.4GIN_SRC python
-impoI.4rt os
-    I.4
-    I.4
-stopI.4word_file = os.path.join('.', 'dataset/stopword_list_indo.txt')
-    I.4
-withI.4 open(stopword_file, 'r') as f:
-    I.4stopwords = f.read()
-    I.4
-stopI.4words = [i for i in stopwords.split('\n')]
-retuI.4rn stopwords[:5]
-#+ENI.4D_SRC
-    I.4
-#+REI.4SULTS:
-| adI.4a | adalah | adanya | adapun | agak | 
-    I.4
-SekaI.4rang mari gunakan untuk mengidentifikasi kata penghubung dalam
-kaliI.4mat berikut:
-    I.4
-#+BEI.4GIN_SRC python
-impoI.4rt os
-fromI.4 nltk.tokenize import word_tokenize
-    I.4
-    I.4
-# reI.4ading stopword_list_indo.txt
-stopI.4word_file = os.path.abspath(os.path.join('.',
-    I.4                                         'dataset/stopword_list_indo.txt'))
-withI.4 open(stopword_file, 'r') as f:
-    I.4stopwords = f.read()
-    I.4
-stopI.4words = [i for i in stopwords.split('\n')]
-    I.4
-teksI.4 = "Semenjak dihadang warga ketika kampanye, Ahok sekarang sering \
-melaI.4kukan kegiatan kampanye di poskonya."
-    I.4
-wordI.4s = word_tokenize(teks)
-    I.4
-filtI.4ered_sentence = [w for w in words if not w in stopwords]
-prinI.4t filtered_sentence
-#+ENI.4D_SRC
-    I.4
-HasiI.4lnya:
-    I.4
-#+BEI.4GIN_SRC python
-['SeI.4menjak', 'dihadang', 'warga', 'kampanye', ',', 'Ahok', 'kegiatan',
-'kamI.4panye', 'poskonya', '.']
-#+ENI.4D_SRC
-    I.4
-TerlI.4ihat bahwa kata ~sekarang~, ~ketika~, ~sering~, ~melakukan~ dan
-~di~I.4 dianggap sebagai kata penghubung sehingga dihilangkan dari
-~tekI.4s~. Inilah salah satu contoh proses /tokenization/ dan
-membI.4ersihkan teks dari kata penghubung.
-    I.4
-*** I.4.5 /stemming/
-MengI.4ubah kata ke bentuk aslinya, tanpa memperhatikan konteks. Beberapa
-jeniI.4s stemming Bahasa Indonesia yang ada mulai dari Nazief adriani,
-ArifI.4in-setiono, Tala, hingga Sembok. Stemming yang populer digunakan
-yaitI.4u *Nazief Adriani (NA)* karena akurasi yang dihasilkan dapat
-dikaI.4takan cukup tinggi hingga mencapai 94%.
-    I.4
-RefeI.4rensi menarik di tema ini:
-- [[I.4https://liyantanto.wordpress.com/2011/06/28/stemming-bahasa-indonesia-dengan-algoritma-nazief-dan-andriani/][Stemming bahasa indonesia dengan algoritma nazief dan andriani]]
-- [[I.4http://sastrawi.github.io/][sastrawi - library untuk stemming]]
-- [[I.4https://yudiagusta.files.wordpress.com/2009/11/196-201-knsi09-036-perbandingan-algoritma-stemming-porter-dengan-algoritma-nazief-adriani-untuk-stemming-dokumen-teks-bahasa-indonesia.pdf][Perbandingan algoritma stemming Porter dengan algoritma Nazief
-  AdI.4riani untuk stemming dokumen teks bahasa Indonesia]]
-*** I.4.6 /lemmatization/
-MengI.4ubah kata ke bentuk asalnya, dengan memperhatikan konteks.
-*** I.4.7 /treebank/
-*** I.4.8 /pos tag/
+*** b. /corpora/
+Naskah teks, misal naskah pidato presiden, jurnal ekonomi.
+*** c. /lexicon/
+Kata dan artinya (mirip kamus). Contoh, kata 'tahu' bisa bermakna
+makanan atau bisa juga paham. Kalau dalam bahasa Inggris, kata _bull_
+bagi investor berbeda makna dengan _bull_ bagi pembicara biasa.
+*** d. /stop words/
+Kata penghubung kalau dalam bahasa Indonesia. Kalau dalam bahasa
+Inggris, pustaka ~nltk~ sudah menyediakan daftar /stopwords/ yang
+tinggal diunduh, lain halnya dengan Bahasa Indonesia. Kita harus
+menambahkan secara manual, beruntung ada beberapa tautan di Internet
+yang menyediakan, dan sudah saya unduh di direktori
+~dataset~[fn:4]. Mari kita coba terapkan untuk mengidentifikasi kata
+penghubung dalam Bahasa Indonesia:
+
+#+BEGIN_SRC python
+import os
+
+
+stopword_file = os.path.join('.', 'dataset/stopword_list_indo.txt')
+
+with open(stopword_file, 'r') as f:
+    stopwords = f.read()
+
+stopwords = [i for i in stopwords.split('\n')]
+return stopwords[:5]
+#+END_SRC
+
+#+RESULTS:
+| ada | adalah | adanya | adapun | agak | 
+
+Sekarang mari gunakan untuk mengidentifikasi kata penghubung dalam
+kalimat berikut:
+
+#+BEGIN_SRC python
+import os
+from nltk.tokenize import word_tokenize
+
+
+# reading stopword_list_indo.txt
+stopword_file = os.path.abspath(os.path.join('.',
+                                             'dataset/stopword_list_indo.txt'))
+with open(stopword_file, 'r') as f:
+    stopwords = f.read()
+
+stopwords = [i for i in stopwords.split('\n')]
+
+teks = "Semenjak dihadang warga ketika kampanye, Ahok sekarang sering \
+melakukan kegiatan kampanye di poskonya."
+
+words = word_tokenize(teks)
+
+filtered_sentence = [w for w in words if not w in stopwords]
+print filtered_sentence
+#+END_SRC
+
+Hasilnya:
+
+#+BEGIN_SRC python
+['Semenjak', 'dihadang', 'warga', 'kampanye', ',', 'Ahok', 'kegiatan',
+'kampanye', 'poskonya', '.']
+#+END_SRC
+
+Terlihat bahwa kata ~sekarang~, ~ketika~, ~sering~, ~melakukan~ dan
+~di~ dianggap sebagai kata penghubung sehingga dihilangkan dari
+~teks~. Inilah salah satu contoh proses /tokenization/ dan
+membersihkan teks dari kata penghubung.
+
+*** e. /stemming/
+Mengubah kata ke bentuk aslinya, tanpa memperhatikan konteks. Beberapa
+jenis stemming Bahasa Indonesia yang ada mulai dari Nazief adriani,
+Arifin-setiono, Tala, hingga Sembok. Stemming yang populer digunakan
+yaitu *Nazief Adriani (NA)* karena akurasi yang dihasilkan dapat
+dikatakan cukup tinggi hingga mencapai 94%.
+
+Referensi menarik di tema ini:
+- [[https://liyantanto.wordpress.com/2011/06/28/stemming-bahasa-indonesia-dengan-algoritma-nazief-dan-andriani/][Stemming bahasa indonesia dengan algoritma nazief dan andriani]]
+- [[http://sastrawi.github.io/][sastrawi - library untuk stemming]]
+- [[https://yudiagusta.files.wordpress.com/2009/11/196-201-knsi09-036-perbandingan-algoritma-stemming-porter-dengan-algoritma-nazief-adriani-untuk-stemming-dokumen-teks-bahasa-indonesia.pdf][Perbandingan algoritma stemming Porter dengan algoritma Nazief
+  Adriani untuk stemming dokumen teks bahasa Indonesia]]
+*** f. /lemmatization/
+Mengubah kata ke bentuk asalnya, dengan memperhatikan konteks.
+*** g. /treebank/
+*** h. /pos tag/
 * II. Rumusan Masalah
 ** Batasan Masalah
 Batasan rumusan masalah disini adalah dalam konteks bahasa Indonesia,
