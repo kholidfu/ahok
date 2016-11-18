@@ -3,7 +3,7 @@
 #+DATE: <2016-11-17 Thu>
 #+STARTUP: indent
 
-* Pendahuluan
+* I. Pendahuluan
 Menurut wikipedia, Pemrosesan Bahasa Alami (PBA) atau NLP (Natural
 Language Processing), adalah cabang ilmu komputer dan linguistik yang
 mengkaji interaksi antara komputer dengan bahasa (alami)
@@ -26,7 +26,7 @@ dari bahasa manusia.
 Sebelum sampai ke materi yang sulit, saya ingin mulai belajar NLP dari
 hal-hal yang sederhana dahulu.
 
-** Aplikasi NLP[fn:2]
+** I.1 Aplikasi NLP[fn:2]
 - Mesin penjawab pertanyaan otomatis
 - Program pengategorian dokumen otomatis
 - Text mining
@@ -37,17 +37,17 @@ hal-hal yang sederhana dahulu.
 - Speech recognition
 - Text to speech
 
-** Kendala NLP
+** I.2 Kendala NLP
 - Bahasa = kata + aturan + pengecualian
 - Bahasa alami mengandung ambiguitas
 - Bahasa manusia tidak hanya satu
 - Bahasa manusia terus berubah
 
-** Bahasa dapat dibagi menjadi 2 macam
+** I.3 Bahasa dapat dibagi menjadi 2 macam
 - Bahasa alami, misal bahasa indonesia, jawa, inggris
 - Bahasa buatan, misal bahasa pemrograman komputer, bahasa pemodelan
 
-** Istilah-istilah dalam NLP
+** I.4 Istilah-istilah dalam NLP
 - /tokenizing/: memecah kata atau kalimat, kalau kata berdasar spasi,
   kalau kalimat berdasar tanda baca titik. Teknik yang digunakan bisa
   menggunakan ~regex~ atau menggunakan fungsi dari pustaka
@@ -64,7 +64,7 @@ hal-hal yang sederhana dahulu.
 
 Hasilnya:
 
-#+BEGIN_SRC text
+#+BEGIN_SRC python
   ['Selamat pagi Mr. Ahok, bagaimana kabarnya?', 'Semoga sehat selalu.']
   ['Selamat', 'pagi', 'Mr.', 'Ahok', ',', 'bagaimana', 'kabarnya', '?',
   'Semoga', 'sehat', 'selalu', '.']
@@ -129,7 +129,7 @@ print filtered_sentence
 
 Hasilnya:
 
-#+BEGIN_SRC text
+#+BEGIN_SRC python
 ['Semenjak', 'dihadang', 'warga', 'kampanye', ',', 'Ahok', 'kegiatan',
 'kampanye', 'posko', 'Ahok', '.']
 #+END_SRC
@@ -139,12 +139,12 @@ Terlihat bahwa kata ~sekarang~, ~ketika~, ~sering~, ~melakukan~ dan
 ~teks~. Inilah salah satu contoh proses /tokenization/ dan
 membersihkan teks dari kata penghubung.
 
-* Rumusan Masalah
+* II. Rumusan Masalah
 Batasan rumusan masalah dalam /paper/ ini adalah dalam konteks bahasa
 Indonesia, karena memang belum banyak penelitian maupun /dataset/
 dalam bahasa Indonesia.
 
-* Metode
+* III. Metode
 ** Sumber Data (Domain):
 - Koran
 - Teks legal
@@ -157,7 +157,7 @@ dalam bahasa Indonesia.
 - Kaskus
 - Facebook
 - etc.
-* Analisis
+* IV. Analisis
 ** Analisis Sentimen
 Apakah teks bermakna *positif*, *negatif* atau *netral*? Sumber teks
 bisa dari kalimat, tweet, pesan SMS, review konsumen, dokumen, dan
@@ -175,7 +175,7 @@ Contoh penerapan di dunia nyata:
 ** Analisis Emosi[fn:3]
 Apa emosi yang terkandung dalam sebuah teks? *Senang*, *susah*,
 *ketakutan*, *marah*?
-* Kesimpulan
+* V. Kesimpulan
 * Daftar Pustaka
 - [ ] Natural Language Processing (almost) from Scratch,
   https://arxiv.org/pdf/1103.0398v1.pdf
