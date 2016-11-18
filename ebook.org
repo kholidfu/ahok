@@ -77,7 +77,7 @@ juga. Terlihat bahwa pustaka ~nltk~ sudah menyediakan fungsi yang
 /reliable/ untuk memecah kalimat atau kata dengan benar.
 
 *** /corpora/
-naskah teks, misal naskah pidato presiden, jurnal ekonomi
+naskah teks, misal naskah pidato presiden, jurnal ekonomi.
 *** /lexicon/
 kata dan artinya (mirip kamus). Contoh, kata 'tahu' bisa bermakna
 makanan atau bisa juga paham. Kalau dalam bahasa Inggris, kata _bull_
