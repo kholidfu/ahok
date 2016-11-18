@@ -123,8 +123,8 @@ with open(stopword_file, 'r') as f:
 
 stopwords = [i for i in stopwords.split('\n')]
 
-teks = ("Semenjak dihadang warga ketika kampanye, Ahok sekarang sering
-melakukan kegiatan kampanye di posko Ahok.")
+teks = "Semenjak dihadang warga ketika kampanye, Ahok sekarang sering \
+melakukan kegiatan kampanye di posko Ahok."
 
 words = word_tokenize(teks)
 
