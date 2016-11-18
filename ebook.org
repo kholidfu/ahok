@@ -146,7 +146,15 @@ Terlihat bahwa kata ~sekarang~, ~ketika~, ~sering~, ~melakukan~ dan
 membersihkan teks dari kata penghubung.
 
 *** /stemming/
-Mengubah kata ke bentuk aslinya, tanpa memperhatikan konteks.
+Mengubah kata ke bentuk aslinya, tanpa memperhatikan konteks. Beberapa
+jenis stemming Bahasa Indonesia yang ada mulai dari Nazief adriani,
+Arifin-setiono, Tala, hingga Sembok. Stemming yang populer digunakan
+yaitu *Nazief Adriani (NA)* karena akurasi yang dihasilkan dapat
+dikatakan cukup tinggi hingga mencapai 94%.
+
+Tautan ke github
+- [[https://github.com/sastrawi/sastrawi][sastrawi]]
+- [[https://github.com/har07/PySastrawi][pysastrawi (versi python)]]
 
 Referensi menarik di tema ini:
 - [[https://liyantanto.wordpress.com/2011/06/28/stemming-bahasa-indonesia-dengan-algoritma-nazief-dan-andriani/][Stemming bahasa indonesia dengan algoritma nazief dan andriani]]
