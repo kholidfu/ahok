@@ -49,7 +49,30 @@ hal-hal yang sederhana dahulu.
 
 ** Istilah-istilah dalam NLP
 - /tokenizing/: memecah kata atau kalimat, kalau kata berdasar spasi,
-  kalau kalimat berdasar tanda baca titik.
+  kalau kalimat berdasar tanda baca titik. Teknik yang digunakan bisa
+  menggunakan ~regex~ atau menggunakan fungsi dari pustaka
+  ~nltk~. Berikut ini contoh kode:
+
+#+BEGIN_SRC python
+  from nltk.tokenize import sent_tokenize, word_tokenize
+
+  text = "Selamat pagi Pak Ahok, bagaimana kabarnya? Semoga sehat selalu."
+
+  print sent_tokenize(text)
+  print word_tokenize(text)
+#+END_SRC
+
+Hasilnya:
+
+#+BEGIN_SRC text
+  ['Selamat pagi Mr. Ahok, bagaimana kabarnya?', 'Semoga sehat selalu.']
+  ['Selamat', 'pagi', 'Mr.', 'Ahok', ',', 'bagaimana', 'kabarnya', '?',
+  'Semoga', 'sehat', 'selalu', '.']
+#+END_SRC
+
+Terlihat bahwa pustaka ~nltk~ sudah menyediakan fungsi yang /reliable/
+untuk memecah kalimat atau kata dengan benar.
+
 - /corpora/: naskah teks, misal naskah pidato presiden, jurnal ekonomi
 - /lexicon/: kata dan artinya (mirip kamus). Kata 'tahu' bisa bermakna
   makanan atau bisa juga paham.
