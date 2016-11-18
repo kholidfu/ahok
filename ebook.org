@@ -49,10 +49,10 @@ hal-hal yang sederhana dahulu.
 
 ** I.4 Istilah-istilah dalam NLP
 *** /tokenizing/
-memecah kata atau kalimat, kalau kata berdasar spasi, kalau kalimat
-berdasar tanda baca titik. Teknik yang digunakan bisa menggunakan
-~regex~ atau menggunakan fungsi dari pustaka ~nltk~. Berikut ini
-contoh kode:
+Proses memecah kata atau kalimat, kalau kata berdasar spasi, kalau
+kalimat berdasar tanda baca titik. Teknik yang digunakan bisa
+menggunakan ~regex~ atau menggunakan fungsi dari pustaka
+~nltk~. Berikut ini contoh kode:
 
 #+BEGIN_SRC python
   from nltk.tokenize import sent_tokenize, word_tokenize
@@ -77,13 +77,13 @@ juga. Terlihat bahwa pustaka ~nltk~ sudah menyediakan fungsi yang
 /reliable/ untuk memecah kalimat atau kata dengan benar.
 
 *** /corpora/
-naskah teks, misal naskah pidato presiden, jurnal ekonomi.
+Naskah teks, misal naskah pidato presiden, jurnal ekonomi.
 *** /lexicon/
-kata dan artinya (mirip kamus). Contoh, kata 'tahu' bisa bermakna
+Kata dan artinya (mirip kamus). Contoh, kata 'tahu' bisa bermakna
 makanan atau bisa juga paham. Kalau dalam bahasa Inggris, kata _bull_
 bagi investor berbeda makna dengan _bull_ bagi pembicara biasa.
 *** /stop words/
-kata penghubung kalau dalam bahasa Indonesia. Kalau dalam bahasa
+Kata penghubung kalau dalam bahasa Indonesia. Kalau dalam bahasa
 Inggris, pustaka ~nltk~ sudah menyediakan daftar /stopwords/ yang
 tinggal diunduh, lain halnya dengan Bahasa Indonesia. Kita harus
 menambahkan secara manual, beruntung ada beberapa tautan di Internet
