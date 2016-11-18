@@ -70,12 +70,74 @@ Hasilnya:
   'Semoga', 'sehat', 'selalu', '.']
 #+END_SRC
 
-Terlihat bahwa pustaka ~nltk~ sudah menyediakan fungsi yang /reliable/
-untuk memecah kalimat atau kata dengan benar.
+Beruntung, karena karakter huruf Bahasa Indonesia sama dengan Bahasa
+Inggris, fungsi ini dapat kita gunakan untuk Bahasa Indonesia
+juga. Terlihat bahwa pustaka ~nltk~ sudah menyediakan fungsi yang
+/reliable/ untuk memecah kalimat atau kata dengan benar.
 
 - /corpora/: naskah teks, misal naskah pidato presiden, jurnal ekonomi
 - /lexicon/: kata dan artinya (mirip kamus). Kata 'tahu' bisa bermakna
   makanan atau bisa juga paham.
+- /stop words/: kata penghubung kalau dalam bahasa Indonesia. Kalau
+  dalam bahasa Inggris, pustaka ~nltk~ sudah menyediakan daftar
+  /stopwords/ yang tinggal diunduh, lain halnya dengan Bahasa
+  Indonesia. Kita harus menambahkan secara manual, beruntung ada
+  beberapa tautan di Internet yang menyediakan, dan sudah saya unduh
+  di direktori ~dataset~. Mari kita coba terapkan untuk
+  mengidentifikasi kata penghubung dalam Bahasa Indonesia:
+
+#+BEGIN_SRC python
+import os
+
+
+stopword_file = os.path.join('.', 'dataset/stopword_list_indo.txt')
+
+with open(stopword_file, 'r') as f:
+    stopwords = f.read()
+
+stopwords = [i for i in stopwords.split('\n')]
+return stopwords[:5]
+#+END_SRC
+
+#+RESULTS:
+| ada | adalah | adanya | adapun | agak | 
+
+Sekarang mari gunakan untuk mengidentifikasi kata penghubung dalam
+kalimat berikut:
+
+#+BEGIN_SRC python
+import os
+from nltk.tokenize import word_tokenize
+
+
+# reading stopword_list_indo.txt
+stopword_file = os.path.abspath(os.path.join('.',
+                                             'dataset/stopword_list_indo.txt'))
+with open(stopword_file, 'r') as f:
+    stopwords = f.read()
+
+stopwords = [i for i in stopwords.split('\n')]
+
+teks = "Semenjak dihadang warga ketika kampanye, Ahok sekarang sering
+melakukan kegiatan kampanye di posko Ahok."
+
+words = word_tokenize(teks)
+
+filtered_sentence = [w for w in words if not w in stopwords]
+print filtered_sentence
+#+END_SRC
+
+Hasilnya:
+
+#+BEGIN_SRC text
+['Semenjak', 'dihadang', 'warga', 'kampanye', ',', 'Ahok', 'kegiatan',
+'kampanye', 'posko', 'Ahok', '.']
+#+END_SRC
+
+Terlihat bahwa kata ~sekarang~, ~ketika~, ~sering~, ~melakukan~ dan
+~di~ dianggap sebagai kata penghubung sehingga dihilangkan dari
+~teks~. Inilah salah satu contoh proses /tokenization/ dan
+membersihkan teks dari kata penghubung.
 
 * Rumusan Masalah
 Batasan rumusan masalah dalam /paper/ ini adalah dalam konteks bahasa
