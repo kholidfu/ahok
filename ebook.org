@@ -152,10 +152,6 @@ Arifin-setiono, Tala, hingga Sembok. Stemming yang populer digunakan
 yaitu *Nazief Adriani (NA)* karena akurasi yang dihasilkan dapat
 dikatakan cukup tinggi hingga mencapai 94%.
 
-Tautan ke github
-- [[https://github.com/sastrawi/sastrawi][sastrawi]]
-- [[https://github.com/har07/PySastrawi][pysastrawi (versi python)]]
-
 Referensi menarik di tema ini:
 - [[https://liyantanto.wordpress.com/2011/06/28/stemming-bahasa-indonesia-dengan-algoritma-nazief-dan-andriani/][Stemming bahasa indonesia dengan algoritma nazief dan andriani]]
 - [[http://sastrawi.github.io/][sastrawi - library untuk stemming]]
@@ -166,10 +162,13 @@ Mengubah kata ke bentuk asalnya, dengan memperhatikan konteks.
 *** /treebank/
 *** /pos tag/
 * II. Rumusan Masalah
+** Batasan Masalah
 Batasan rumusan masalah disini adalah dalam konteks bahasa Indonesia,
 karena memang belum banyak penelitian maupun /dataset/ dalam bahasa
-Indonesia.
-
+Indonesia
+** Tujuan
+Tujuan dari /paper/ ini adalah membuat aplikasi analisis sentimen
+sederhana menggunakan bahasa pemrograman Python.
 * III. Metode
 ** III.1 Sumber Data (Domain):
 - Koran
