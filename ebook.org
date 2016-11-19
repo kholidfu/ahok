@@ -211,6 +211,10 @@ Contoh:
   ['syskkmu'] => ['saya suka kami'],
   ['memeroleh'] => ['memperoleh']
 #+END_SRC
+*** j. /concordance/
+Daftar kemunculan kata dan konteksnya, sebagaimana yang terdapat dalam
+korpus, biasanya dalam bentuk /KWIC Index/. Gambar dalam sub-bagian
+/corpus/ di atas merupakah salah satu contohnya.
 * II. Rumusan Masalah
 ** Batasan Masalah
 Batasan rumusan masalah disini adalah dalam konteks bahasa Indonesia,
