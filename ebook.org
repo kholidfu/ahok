@@ -215,6 +215,23 @@ Contoh:
 Daftar kemunculan kata dan konteksnya, sebagaimana yang terdapat dalam
 korpus, biasanya dalam bentuk /KWIC Index/. Gambar dalam sub-bagian
 /corpus/ di atas merupakah salah satu contohnya.
+
+#+BEGIN_SRC python
+  import os
+  import nltk
+  from nltk.corpus import PlaintextCorpusReader
+
+
+  corpus_loc = os.path.join(os.path.abspath('.'), 'corpus')
+  # files = ".*\.txt"
+  files = "ahok.txt"
+  read_corpus = PlaintextCorpusReader(corpus_loc, files)
+  corpus = nltk.Text(read_corpus.words())
+  test = nltk.TextCollection(corpus_loc)
+
+  corpus.concordance("bus")
+#+END_SRC
+
 * II. Rumusan Masalah
 ** Batasan Masalah
 Batasan rumusan masalah disini adalah dalam konteks bahasa Indonesia,
