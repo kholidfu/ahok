@@ -153,6 +153,16 @@ Arifin-setiono, Tala, hingga Sembok. Stemming yang populer digunakan
 yaitu *Nazief Adriani (NA)* karena akurasi yang dihasilkan dapat
 dikatakan cukup tinggi hingga mencapai 94%.
 
+Contoh:
+
+#+BEGIN_SRC text
+  Se + bungkus = sebungkus
+  Me + inap = menginap
+  Me + pesona = mempesona
+  Me + sapu = menyapu
+  Pe + sabar = penyabar
+#+END_SRC
+
 Referensi menarik di tema ini:
 - [[https://liyantanto.wordpress.com/2011/06/28/stemming-bahasa-indonesia-dengan-algoritma-nazief-dan-andriani/][Stemming bahasa indonesia dengan algoritma nazief dan andriani]]
 - [[http://sastrawi.github.io/][sastrawi - library untuk stemming]]
