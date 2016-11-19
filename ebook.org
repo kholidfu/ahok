@@ -79,7 +79,27 @@ juga. Terlihat bahwa pustaka ~nltk~ sudah menyediakan fungsi yang
 /reliable/ untuk memecah kalimat atau kata dengan benar.
 
 *** b. /corpora/
-Naskah teks, misal naskah pidato presiden, jurnal ekonomi.
+Naskah teks, misal naskah pidato presiden, jurnal ekonomi. Sejenis
+~bank bahasa~ yang berasal dari penggunaan bahasa dalam berbagai
+/genre/, ragam dan bahasa lisan maupun tertulis yang menjamin
+keragaman yang seluas-luasnya dan menghindari bahasa yang sangat
+sempit.
+
+Korpus dapat membantu dalam penentuan kelas kata sebuah lema karena
+korpus memberikan konteks yang berbeda-beda sesuai tempat kata itu
+berada. Contohnya, kata /salut/ dalam KBBI Edisi IV (2008: 1211) hanya
+memiliki satu kelas kata, yakni ~nomina~. Namun ketika kata /salut/
+diekstrak dari korpus, didapati bahwa ternyata kata salut juga dapat
+memiliki kelas adjektif, seperti terlihat pada kalimat 56729, 19125,
+dan 4172 dalam gambar berikut.[fn:5]
+
+#+CAPTION: Penggunaan kata /salut/ dalam korpus
+#+NAME: Analisis kata /salut/ dalam korpus
+[[./assets/images/korpus_sketch_engine.png]]
+
+Korpus membantu pekamus dalam mendefinisikan suatu lema. Proses
+pendefinisian biasanya memerlukan beberapa tahap analisis sehingga
+dapat dihasilkan definisi yang baik dan tepat.
 *** c. /lexicon/
 Kata dan artinya (mirip kamus). Contoh, kata 'tahu' bisa bermakna
 makanan atau bisa juga paham. Kalau dalam bahasa Inggris, kata _bull_
@@ -260,3 +280,5 @@ belajar tentang NLP.
 [fn:2] https://youtu.be/nSzrOl_vnn4?t=61
 
 [fn:3] https://youtu.be/zv16Xyph7Ss?t=176
+
+[fn:5] http://badanbahasa.kemdikbud.go.id/lamanbahasa/artikel/1580
