@@ -156,12 +156,31 @@ dikatakan cukup tinggi hingga mencapai 94%.
 Referensi menarik di tema ini:
 - [[https://liyantanto.wordpress.com/2011/06/28/stemming-bahasa-indonesia-dengan-algoritma-nazief-dan-andriani/][Stemming bahasa indonesia dengan algoritma nazief dan andriani]]
 - [[http://sastrawi.github.io/][sastrawi - library untuk stemming]]
-- [[https://yudiagusta.files.wordpress.com/2009/11/196-201-knsi09-036-perbandingan-algoritma-stemming-porter-dengan-algoritma-nazief-adriani-untuk-stemming-dokumen-teks-bahasa-indonesia.pdf][Perbandingan algoritma stemming Porter dengan algoritma Nazief
-  Adriani untuk stemming dokumen teks bahasa Indonesia]]
+- [[https://yudiagusta.files.wordpress.com/2009/11/196-201-knsi09-036-perbandingan-algoritma-stemming-porter-dengan-algoritma-nazief-adriani-untuk-stemming-dokumen-teks-bahasa-indonesia.pdf][Perbandingan
+  algoritma stemming Porter dengan algoritma Nazief Adriani untuk
+  stemming dokumen teks bahasa Indonesia]]
 *** f. /lemmatization/
 Mengubah kata ke bentuk asalnya, dengan memperhatikan konteks.
 *** g. /treebank/
 *** h. /pos tag/
+Memberikan label pada kata sesuai dengan aturan /grammar/.
+
+Contoh:
+#+BEGIN_SRC text
+  kata:
+  ['meja'], ['hitam']
+
+  POS Tag Processing result:
+  [('meja', 'Verba'),('hitam', 'Verba')]
+#+END_SRC
+*** i. /spell checking/
+Koreksi kata agar sesuai dengan aturan masing-masing bahasa alami.
+
+Contoh:
+#+BEGIN_SRC text
+  ['syskkmu'] => ['saya suka kami'],
+  ['memeroleh'] => ['memperoleh']
+#+END_SRC
 * II. Rumusan Masalah
 ** Batasan Masalah
 Batasan rumusan masalah disini adalah dalam konteks bahasa Indonesia,
@@ -209,13 +228,18 @@ belajar tentang NLP.
 - [[http://bahasa.cs.ui.ac.id/about.php][Pusat Bahasa UI]] [Blog/Website]
 - [[https://arxiv.org/pdf/1103.0398v1.pdf][Natural Language Processing (almost) from Scratch]] [PDF]
 - [[http:https://www.youtube.com/results?search_query=pemrosesan+bahasa+alami][Youtube search result for PBA]] [Youtube]
+- [[https://beritati.blogspot.co.id/2015/04/pemrosesan-bahasa-alami-natural.html][Pemrosesan Bahasa Alami - Seri Text Mining dan Web Mining (2)]]
+  [Blog/Website]
+- [[http://blog.pantaw.com/nlp-pemrosesan-bahasa-alami/][Pemrosesan Bahasa Alami]] [Blog/Website]
 ** Analisis Sentimen
 - [[https://www.youtube.com/watch?v=zv16Xyph7Ss][Sentiment Analysis of Social Media Texts Part 1]] [PDF]
 ** Stemming
-- [[https://liyantanto.wordpress.com/2011/06/28/stemming-bahasa-indonesia-dengan-algoritma-nazief-dan-andriani/][Stemming Bahasa Indonesia dengan Algoritma Nazief dan Andriani]] [Blog/Website]
+- [[https://liyantanto.wordpress.com/2011/06/28/stemming-bahasa-indonesia-dengan-algoritma-nazief-dan-andriani/][Stemming Bahasa Indonesia dengan Algoritma Nazief dan Andriani]]
+  [Blog/Website]
 - [[http://sastrawi.github.io/][Sastrawi - Library untuk Stemming Bahasa Indonesia]] [Github]
-- [[https://yudiagusta.files.wordpress.com/2009/11/196-201-knsi09-036-perbandingan-algoritma-stemming-porter-dengan-algoritma-nazief-adriani-untuk-stemming-dokumen-teks-bahasa-indonesia.pdf][Perbandingan Algoritma Stemming Porter dengan Algoritma Nazief
-  Adriani untuk Stemming Dokumen Teks Bahasa Indonesia]] [PDF]
+- [[https://yudiagusta.files.wordpress.com/2009/11/196-201-knsi09-036-perbandingan-algoritma-stemming-porter-dengan-algoritma-nazief-adriani-untuk-stemming-dokumen-teks-bahasa-indonesia.pdf][Perbandingan
+  Algoritma Stemming Porter dengan Algoritma Nazief Adriani untuk
+  Stemming Dokumen Teks Bahasa Indonesia]] [PDF]
   
 * Footnotes
 
