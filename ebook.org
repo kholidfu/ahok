@@ -90,7 +90,7 @@ korpus memberikan konteks yang berbeda-beda sesuai tempat kata itu
 berada. Contohnya, kata /salut/ dalam KBBI Edisi IV (2008: 1211) hanya
 memiliki satu kelas kata, yakni ~nomina~. Namun ketika kata /salut/
 diekstrak dari korpus, didapati bahwa ternyata kata salut juga dapat
-memiliki kelas adjektif, seperti terlihat pada kalimat 56729, 19125,
+memiliki kelas adjektif, seperti terlihat pada kalimat 56279, 19125,
 dan 4172 dalam gambar berikut.[fn:5]
 
 #+CAPTION: Penggunaan kata /salut/ dalam korpus
