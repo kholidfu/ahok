@@ -271,6 +271,8 @@ belajar tentang NLP.
   Algoritma Stemming Porter dengan Algoritma Nazief Adriani untuk
   Stemming Dokumen Teks Bahasa Indonesia]] [PDF]
   
+** Korpus
+- [[http://badanbahasa.kemdikbud.go.id/lamanbahasa/artikel/1580][Korpus dan Penyusunan Kamus - Badan Bahasa Kemdikbud]]
 * Footnotes
 
 [fn:4] [[http://hikaruyuuki.lecture.ub.ac.id/kamus-kata-dasar-dan-stopword-list-bahasa-indonesia/][Kamus kata dasar dan stopword list bahasa indonesia]]
