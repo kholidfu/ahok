@@ -78,7 +78,7 @@ Inggris, fungsi ini dapat kita gunakan untuk Bahasa Indonesia
 juga. Terlihat bahwa pustaka ~nltk~ sudah menyediakan fungsi yang
 /reliable/ untuk memecah kalimat atau kata dengan benar.
 
-*** b. /corpora/
+*** b. /corpora/ / korpus
 Naskah teks, misal naskah pidato presiden, jurnal ekonomi. Sejenis
 ~bank bahasa~ yang berasal dari penggunaan bahasa dalam berbagai
 /genre/, ragam dan bahasa lisan maupun tertulis yang menjamin
