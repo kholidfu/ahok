@@ -310,6 +310,7 @@ belajar tentang NLP.
   [Blog/Website]
 - [[http://blog.pantaw.com/nlp-pemrosesan-bahasa-alami/][Pemrosesan Bahasa Alami]] [Blog/Website]
 - [[http://kbbi.web.id/][KBBI]] [Blog/Website]
+- [[http://www.sciencedirect.com/science/article/pii/S2212017313004635][Generating Mind Map from Indonesian Text Using NLP Tools]] [Journal]
 ** Analisis Sentimen
 - [[https://www.youtube.com/watch?v=zv16Xyph7Ss][Sentiment Analysis of Social Media Texts Part 1]] [PDF]
 ** Stemming
