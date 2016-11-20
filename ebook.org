@@ -184,7 +184,7 @@ Contoh:
 #+END_SRC
 
 Pustaka python untuk proses stemming bahasa Indonesia bernama
-~Sastrawi~, dapat di-install dengan mudah via ~pip install Sastrawi~.
+[[https://github.com/har07/PySastrawi][Sastrawi]], dapat di-install dengan mudah via ~pip install Sastrawi~.
 
 Berikut ini contoh kode proses stemming sederhana:
 
