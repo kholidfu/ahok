@@ -276,7 +276,7 @@ Apa emosi yang terkandung dalam sebuah teks? *Senang*, *susah*,
 Berikut ini beberapa sumber bacaan yang saya temukan ketika sedang
 belajar tentang NLP.
 ** PBA/NLP in General
-- [[http://language.worldofcomputing.net/nlp-glossary/glossary-of-nlp-terms.html][Glossary of NLP Terms]]
+- [[http://language.worldofcomputing.net/nlp-glossary/glossary-of-nlp-terms.html][Glossary of NLP Terms]] [Blog/Website]
 - [[http://bahasa.cs.ui.ac.id/about.php][Pusat Bahasa UI]] [Blog/Website]
 - [[https://arxiv.org/pdf/1103.0398v1.pdf][Natural Language Processing (almost) from Scratch]] [PDF]
 - [[http:https://www.youtube.com/results?search_query=pemrosesan+bahasa+alami][Youtube search result for PBA]] [Youtube]
