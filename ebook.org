@@ -183,6 +183,31 @@ Contoh:
   Pe + sabar = penyabar
 #+END_SRC
 
+Pustaka python untuk proses stemming bahasa Indonesia bernama
+~Sastrawi~, dapat di-install dengan mudah via ~pip install Sastrawi~.
+
+Berikut ini contoh kode proses stemming sederhana:
+
+#+BEGIN_SRC python
+
+# import StemmerFactory class
+from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
+
+# create stemmer
+factory = StemmerFactory()
+stemmer = factory.create_stemmer()
+
+# stemming process
+sentence = 'Perekonomian Indonesia sedang dalam pertumbuhan yang membanggakan'
+output   = stemmer.stem(sentence)
+
+print output
+# ekonomi indonesia sedang dalam tumbuh yang bangga
+
+print stemmer.stem('Mereka meniru-nirukannya')
+# mereka tiru
+#+END_SRC
+
 Referensi menarik di tema ini:
 - [[https://liyantanto.wordpress.com/2011/06/28/stemming-bahasa-indonesia-dengan-algoritma-nazief-dan-andriani/][Stemming bahasa indonesia dengan algoritma nazief dan andriani]]
 - [[http://sastrawi.github.io/][sastrawi - library untuk stemming]]
