@@ -301,7 +301,7 @@ Apa emosi yang terkandung dalam sebuah teks? *Senang*, *susah*,
 Berikut ini beberapa sumber bacaan yang saya temukan ketika sedang
 belajar tentang NLP.
 ** PBA/NLP in General
-- [[https://github.com/sastrawi/nlp-bahasa-indonesia][Kumpulan thesis, paper dan artikel tentang NLP Bahasa Indonesia]]
+- [[https://github.com/sastrawi/nlp-bahasa-indonesia][Kumpulan thesis, paper dan artikel tentang NLP Bahasa Indonesia]] [Github]
 - [[http://language.worldofcomputing.net/nlp-glossary/glossary-of-nlp-terms.html][Glossary of NLP Terms]] [Blog/Website]
 - [[http://bahasa.cs.ui.ac.id/about.php][Pusat Bahasa UI]] [Blog/Website]
 - [[https://arxiv.org/pdf/1103.0398v1.pdf][Natural Language Processing (almost) from Scratch]] [PDF]
@@ -309,6 +309,7 @@ belajar tentang NLP.
 - [[https://beritati.blogspot.co.id/2015/04/pemrosesan-bahasa-alami-natural.html][Pemrosesan Bahasa Alami - Seri Text Mining dan Web Mining (2)]]
   [Blog/Website]
 - [[http://blog.pantaw.com/nlp-pemrosesan-bahasa-alami/][Pemrosesan Bahasa Alami]] [Blog/Website]
+- [[http://kbbi.web.id/][KBBI]] [Blog/Website]
 ** Analisis Sentimen
 - [[https://www.youtube.com/watch?v=zv16Xyph7Ss][Sentiment Analysis of Social Media Texts Part 1]] [PDF]
 ** Stemming
